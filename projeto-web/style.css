@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&display=swap');
+
+:root {
+    --cor-principal: #690000;
+    --cor-escura: #000000;
+    --cor-media: #9c1c1c;
+    --cor-clara: #db2525;
+    --cor-fundo: #ffd0d0;
+    --cor-footer: #cf4040;
+}
+
+main {
+    background-color: var(--cor-fundo);
+    width: 80vw;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background: linear-gradient(to bottom, var(--cor-clara), var(--cor-media), var(--cor-escura));
+    font-size: 30px;
+    min-height: 100vh;
+    padding-top: 30px;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    padding: 5px 10px 0 0;
+}
+
+div, h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Playwrite CU", cursive;
+    color: var(--cor-principal);
+}
+
+td {
+    border: 2px solid var(--cor-principal);
+    text-align: center;
+    padding: 5px 0px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px auto 0px auto;
+    width: 50vw;
+}
+
+th {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 5px 0px;
+    border: 2px solid var(--cor-principal);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-footer);
+    padding: 10px 0px;
+    margin-top: 30px;
+    gap: 60px;
+    align-items: center;
+}
+
+footer > p {
+    margin: 0 0 8px 0;
+    font-size: medium;
+}

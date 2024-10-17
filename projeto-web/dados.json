@@ -1,0 +1,24 @@
+{
+    "alunos": [
+        {
+            "nome": "Pedro Rangel",
+            "idade": 19,
+            "altura": 168
+        },
+        {
+            "nome": "João Marquardt",
+            "idade": 19,
+            "altura": 176
+        },
+        {
+            "nome": "João Lourenço",
+            "idade": 20,
+            "altura": 185
+        },
+        {
+            "nome": "Mauro Pahoor",
+            "idade": 19,
+            "altura": 180
+        }
+    ]
+}
